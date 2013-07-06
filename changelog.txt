@@ -1,0 +1,11 @@
+eGovCharisma WordPress Template
+
+Adapted from Charisma Responsive Admin Template developer by Muhammad Usman (http://usman.it/free-responsive-admin-template/)
+
+Changelog
+
+06 July 2013
+	- Remove Post menu from Admin Dashboard
+	- Remove Comments menu from Admin Dashboard
+ 	- Unsupported custom menu
+	- Only support Page content (currently remove post functionality)
