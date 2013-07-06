@@ -1,4 +1,4 @@
-eGovCharisma
+<strong>eGovCharisma</strong>
 
 WordPress Admin Dashboard Template adapted from Charisma Template
 
