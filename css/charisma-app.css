@@ -29,7 +29,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#331e5799', e
 clear:both;
 }
 
-
 .top-block:hover{
 text-decoration:none;
 }
@@ -118,8 +117,6 @@ cursor:move;
 float: right;
 width: 80%;
 }
-
-
 
 .box{
 border: 1px solid #DEDEDE;
