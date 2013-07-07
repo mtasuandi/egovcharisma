@@ -165,7 +165,8 @@
 						foreach($pages as $page)
 						{
 							$pagelink	= get_permalink($page->ID);
-							$menu 		= "<li><a class='ajax-link' href='{$pagelink}'><i class='icon-home'></i><span class='hidden-tablet'> {$page->post_title}</span></a></li>";
+							$icon 		= get_post_meta($page->ID, 'egov_page_menu_icon', true );
+							$menu 		= "<li><a class='ajax-link' href='{$pagelink}'><i class='{$icon}'></i><span class='hidden-tablet'> {$page->post_title}</span></a></li>";
 							echo $menu;
 						}
 						?>

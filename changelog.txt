@@ -4,6 +4,12 @@ Adapted from Charisma Responsive Admin Template developer by Muhammad Usman (htt
 
 Changelog
 
+07 July 2013
+	- Add theme options
+		* Set favicon via admin backend
+		* Set logo via admin backend
+	- Add custom menu icon while creating pages
+	
 06 July 2013
 	- Remove Post menu from Admin Dashboard
 	- Remove Comments menu from Admin Dashboard
