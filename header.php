@@ -93,7 +93,7 @@
 	<![endif]-->
 
 	<!-- The fav icon -->
-	<link rel="shortcut icon" href="<?php echo get_template_directory_uri().'/img/favicon.ico'; ?>">
+	<link rel="shortcut icon" href="<?php echo get_option('egov_ts_favicon'); ?>">
 	<?php wp_head(); ?>
 </head>
 
@@ -108,7 +108,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</a>
-				<a class="brand" href="<?php echo site_url(); ?>"> <img alt="<?php bloginfo('name'); ?> Logo" src="<?php echo get_template_directory_uri().'/img/logo20.png'; ?>" /> <span><?php bloginfo('name'); ?></span></a>
+				<a class="brand" href="<?php echo site_url(); ?>"> <img alt="<?php bloginfo('name'); ?> Logo" src="<?php echo get_option('egov_ts_logo'); ?>" /> <span><?php bloginfo('name'); ?></span></a>
 				
 				<!-- theme selector starts -->
 				<div class="btn-group pull-right theme-container" >
